@@ -13,11 +13,11 @@ namespace Business.Abstract
     {
         IDataResult<List<AstroturfImage>> GetAll();
         IDataResult<AstroturfImage> GetById(int astroturfImageId);
-        IDataResult<List<AstroturfImage>> GetByCarId(int astroturfId);
+        IDataResult<List<AstroturfImage>> GetByAstroturfId(int astroturfId);
         IResult Add(List<IFormFile> formFile, AstroturfImage astroturfImage);
         IResult Delete(AstroturfImage astroturfImage);
 
-        IDataResult<List<AstroturfImage>> GetCarImagesByCarId(int astroturfId);
+        IDataResult<List<AstroturfImage>> GetAstroturfImagesByAstroturfId(int astroturfId);
         IResult Update(List<IFormFile> file, AstroturfImage astroturfImage);
     }
 }

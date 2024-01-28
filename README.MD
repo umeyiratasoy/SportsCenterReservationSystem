@@ -4,6 +4,9 @@
 - Entities are being created according to database normalization (still) -> 23.01
 - Image configuration completed -> 24.01
 - Authorization configuration completed -> 26.01
+- Cache Operations are Completing -> 28.01
+- Performance Operations are Completing -> 28.01
+- Listing process is being completed -> 28.01
 
 
 [Linkedin](https://www.linkedin.com/in/umeyiratasoy/)

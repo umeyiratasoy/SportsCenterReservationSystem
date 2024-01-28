@@ -26,8 +26,11 @@ namespace DataAccess.Concrete.EntityFramework
                              on ast.DistrictId equals ds.Id
                              select new AstroturfListDto
                              {
+                                 TypeId = ast.TypeId,
                                  TypeName = fi.TypeName,
+                                 CityId = ci.Id,
                                  CityName = ci.CityName,
+                                 DistrictId = ds.Id,
                                  DistrictName = ds.DistrictName,
                                  Name = ast.Name,
                                  Address = ast.Address,
@@ -38,6 +41,8 @@ namespace DataAccess.Concrete.EntityFramework
                              };
                 return result.ToList();
             }
+
+
         }
     }
 }

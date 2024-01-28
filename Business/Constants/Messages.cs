@@ -17,10 +17,15 @@
         public static string ProductNameAlreadyExists = "Ürün ismi zaten mevcut";
 
         //CarImage
-        public static string CarImageUpdated = "Car Image Updated";
-        public static string CarImageDeleteError = "Car Image Deleted Error";
-        public static string CarImageDeleteSuccess = "Car Image Deleted Success";
-        public static string CarImageAdded = "Car Image Added";
+        public static string AstroturfImageUpdated = "Astroturf Image Updated";
+        public static string AstroturfImageDeleteError = "Astroturf Image Deleted Error";
+        public static string AstroturfImageDeleteSuccess = "Astroturf Image Deleted Success";
+        public static string AstroturfImageAdded = "Astroturf Image Added";
+
+
+        public static string AstroturfUpdated = "Astroturf Updated";
+        public static string AstroturfDeleted = "Astroturf Deleted Success";
+        public static string AstroturfAdded = "Astroturf Added";
 
     }
 }

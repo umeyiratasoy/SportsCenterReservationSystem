@@ -7,6 +7,9 @@ namespace Entities.Dtos
 {
     public class AstroturfListDto : IDto
     {
+        public int TypeId { get; set; }
+        public int CityId { get; set; }
+        public int DistrictId { get; set; }
         public string TypeName { get; set; }
         public string CityName { get; set; }
         public string DistrictName { get; set; }

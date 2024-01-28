@@ -14,7 +14,6 @@ namespace WebAPI.Controllers
     {
         IAstroturfImageService _astroturfImageService;
 
-
         public AstroturfImagesController(IAstroturfImageService astroturfImageService)
         {
             _astroturfImageService = astroturfImageService;
@@ -43,10 +42,11 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
+
         [HttpGet("getbycarid")]
         public IActionResult GetByCarId(int astroturfImage)
         {
-            var result = _astroturfImageService.GetCarImagesByCarId(astroturfImage);
+            var result = _astroturfImageService.GetAstroturfImagesByAstroturfId(astroturfImage);
             if (result.Success)
             {
                 return Ok(result);
