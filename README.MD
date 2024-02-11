@@ -7,6 +7,6 @@
 - Cache Operations are Completing -> 28.01
 - Performance Operations are Completing -> 28.01
 - Listing process is being completed -> 28.01
-
+- Appointment making procedures are being prepared -> 11.02
 
 [Linkedin](https://www.linkedin.com/in/umeyiratasoy/)
